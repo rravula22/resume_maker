@@ -1,0 +1,26 @@
+{
+  "name": "resume_maker",
+  "version": "1.0.0",
+  "description": "Converting resumes according to job description using OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "resume_maker"
+  },
+  "keywords": [
+    "OpenAI",
+    "Resume"
+  ],
+  "author": "Rakesh Ravula",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "openai": "^4.3.0"
+  }
+}
